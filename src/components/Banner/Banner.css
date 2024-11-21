@@ -73,3 +73,77 @@
     cursor: pointer;
     color: #fff;
 }
+
+@media screen and (max-width: 1400px) {
+    .description {
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .shape {
+        height: 30% !important;
+    }
+    .avatar {
+        height: 30% !important;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .content {
+        padding-bottom: 2%;
+    }
+    .description{
+        padding: 2% 5%;
+        width: 100% ;
+        text-align: left;
+        font-size: 1.4vw;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .description{
+        font-size: 1.8vw;
+    } 
+    .shape {
+        width: 50% !important;
+    }
+    .avatar {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description{
+        font-size: 2.4vw;
+    } 
+}
+
+@media screen and (max-width: 540px) {
+    .description{
+        font-size: 3vw;
+    } 
+    .shape {
+        width: 70% !important;
+    }
+    .avatar {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .description{
+        font-size: 3.5vw;
+    } 
+    .shape {
+        width: 80% !important;
+        height: 25% !important;
+    }
+    .avatar {
+        width: 80% !important;
+        height: 25% !important;
+    }
+}

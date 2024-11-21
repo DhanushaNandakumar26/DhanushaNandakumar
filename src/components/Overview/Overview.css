@@ -41,6 +41,63 @@
 }
 
 .overViewImageContainer img {
-    width: 23vw;
-    height: 28.8vw;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .overViewImageContainer {
+        width: 25vw;
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .overViewImageContainer {
+        width: 30vw;
+        height: 38vw;
+    }
+    .background-section {
+        padding-right: 14% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overviewMain {
+        width: 100%;
+        height: auto; /* Adjust the height to fit the content */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the child containers horizontally */
+        background-color: #f3f0ef;
+    }
+
+    .overViewImageContainer {
+        position: static; /* Reset positioning for stacking */
+        margin: 20px auto; /* Center the image horizontally */
+        width: 60vw; /* Adjust image width for smaller screens */
+        height: 70vw; /* Maintain aspect ratio */
+        background-color: #742409;
+    }
+
+    .overviewLeftContainer {
+        width: 100%; /* Full width for stacking */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 20%; /* Ensure the section starts at 20% from the top */
+    }
+
+    .overviewLeftContainer span {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 5%; /* Adjust padding */
+    }
+
+    .overviewRightContainer {
+        width: 100%; /* Adjust width for consistency */
+        background: #F3E4DD;
+        color: #333;
+        text-align: center;
+    }
 }

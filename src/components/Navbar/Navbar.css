@@ -1,0 +1,67 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+    padding: 2rem 6rem;
+    color: #603620;
+    font-size: 1.2vw;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-link:hover {
+    border-bottom: 2px solid #603620;
+}
+
+.navbar-link {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    background-color: #603620;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+    left: 0;
+}

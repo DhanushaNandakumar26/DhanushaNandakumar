@@ -1,0 +1,56 @@
+.background-section {
+    padding: 5% 40% 5% 5%;
+    background-color: #f3f0ef;
+    font-family: "Arsenal SC", sans-serif;
+    text-align: left;
+}
+
+.background-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.background-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.background-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.background-list li:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.background-list li:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.background-list li:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.background-list li:nth-child(4) {
+    animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

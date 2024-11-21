@@ -1,0 +1,83 @@
+.experience-section {
+    display: flex;
+}
+
+.menu {
+    position: fixed;
+    width: 200px;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.2vw;
+}
+
+.menu-item.selected {
+    font-weight: bold;
+}
+
+.contentSec {
+    margin-left: 220px;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.content-item {
+    min-height: 75vh;
+    padding: 0 3rem;
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item h2 {
+    font-size: 1.4vw;
+    font-weight: 700;
+    display: flex;
+    gap: 1rem;
+}
+
+.content-item p {
+    font-size: 0.9vw;
+}
+
+.content-item.visible {
+    display: flex;
+    flex-direction: column;
+}
+
+.companyName span {
+    position: relative;
+    left: -12px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #8B4513;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.skill-tag:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.skills {
+    margin-top: 1rem;
+}
+
+.skillHead {
+    font-size: 1vw;
+}
+
+.contentSec>.content-item:nth-of-type(3) {
+    padding-bottom: 5rem;
+}

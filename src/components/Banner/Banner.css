@@ -1,0 +1,75 @@
+.banner {
+    position: relative;
+    height: 100vh;
+    background-color: #F3E4DD;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.contentSection {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    z-index: 1;
+    padding: 10% 0% 10% 5%;
+    display: flex;
+    font-size: 3vw;
+    font-weight: 500;
+    color: #000;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.description {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 13% 5%;
+    color: #603620;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1vw;
+}
+
+.shape {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 40%;
+    height: 35%;
+    background-color: #742409;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    color: #603620;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.aboutSection h1 {
+    font-size: 4vw;
+}
+
+.aboutSection span {
+    font-size: 2vw;
+}
+
+.avatar {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    width: 40%;
+    height: 40%;
+    background-color: #c5b1ab;
+}
+
+.scroll-down {
+    margin-top: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    color: #fff;
+}

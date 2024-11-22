@@ -132,6 +132,9 @@
     .avatar {
         width: 70% !important;
     }
+    .contentSection {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 380px) {

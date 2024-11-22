@@ -65,3 +65,28 @@
     width: 100%;
     left: 0;
 }
+
+
+@media screen and (max-width: 980px) {
+    .navbar-item{
+        font-size: 1.8vw !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-item{
+        font-size: 2.4vw !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .navbar-item{
+        font-size: 3vw !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .navbar-item{
+        font-size: 3.5vw !important;
+    }
+}

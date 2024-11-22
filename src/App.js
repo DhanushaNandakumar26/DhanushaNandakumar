@@ -5,7 +5,7 @@ import Experience from "./pages/Experience/Experience";
 
 function App() {
   return (
-    <BrowserRouter basename="/DhanushaNandakumar">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />}>
         </Route>

@@ -19,7 +19,9 @@ const Banner = () => {
                         After completing my masters in computer applications, I embarked on my professional journey as a software developer. Over the past two years, I've had the privilege of working with talented teams and contributing to various exciting projects. Each project has provided me with invaluable learning experiences and the opportunity to apply my skills in real-world scenarios.
 
                         I am continuously inspired by the possibilities that technology offers to solve problems and improve lives.
+                    
                     </span>
+                    
                 </div>
             </div>
 

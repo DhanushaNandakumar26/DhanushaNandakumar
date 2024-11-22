@@ -81,3 +81,215 @@
 .contentSec>.content-item:nth-of-type(3) {
     padding-bottom: 5rem;
 }
+/* .experience-section {
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    padding: 15px;
+    cursor: pointer;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu-item.selected {
+    font-weight: bold;
+}
+
+.contentSec {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content-item {
+    min-height: 75vh;
+    padding: 3rem;
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item h2 {
+    font-size: 2vw;
+    font-weight: 700;
+    display: flex;
+    gap: 1rem;
+}
+
+.content-item p {
+    font-size: 1.2vw;
+}
+
+.content-item.visible {
+    display: flex;
+    flex-direction: column;
+}
+
+.companyName span {
+    position: relative;
+    left: -12px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #8B4513;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.skill-tag:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+} */
+
+/* For screens below 980px */
+@media screen and (max-width: 980px) {
+    .experience-section {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    /* Image Styling - Make Image sticky on top */
+    .image {
+        position: sticky;
+        top: 0;
+        z-index: 500;
+    }
+
+    .menu {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1.8vw; /* Increased font size for small screens */
+    }
+
+    .content-item h2 {
+        font-size: 1.8vw; 
+    }
+
+    .content-item p{
+        font-size: 1.8vw; 
+    }
+
+    .skillHead{
+        font-size: 1.8vw; 
+    }
+
+    .contentSec {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .content-item {
+        min-height: 100vh;
+        padding: 20px;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .companyName span {
+        left: 0;
+    }
+
+    .menu-item.selected {
+        font-weight: bold;
+        background-color: #f1f1f1;
+    }
+
+    .skills {
+        margin-top: 1rem;
+    }
+
+    .experience-section .menu {
+        position: sticky;
+        top: 6rem;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-item{
+        font-size: 2.4vw;
+    } 
+    .content-item h2 {
+        font-size: 2.4vw; 
+    }
+    .content-item p{
+        font-size: 2.4vw; 
+    }
+
+    .skillHead{
+        font-size: 2.4vw; 
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .menu-item{
+        font-size: 3vw;
+    } 
+    .content-item h2 {
+        font-size: 3vw; 
+    }
+    .content-item p{
+        font-size: 3vw; 
+    }
+
+    .skillHead{
+        font-size: 3vw; 
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .menu-item{
+        font-size: 3.5vw;
+    } 
+    .content-item h2 {
+        font-size: 3.5vw; 
+    }
+    .content-item p{
+        font-size: 3.5vw; 
+    }
+
+    .skillHead{
+        font-size: 3.5vw; 
+    }
+    .experience-section .menu{
+        padding: 0;
+    }
+
+}

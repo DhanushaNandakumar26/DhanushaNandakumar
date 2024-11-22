@@ -44,3 +44,130 @@
     top: 25%;
     left: 35%;
 }
+/* 
+.experienceMain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #f3f0ef;
+    flex-direction: row;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.experienceLeftContainer {
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    background: #F3E4DD;
+    padding: 4% 0% 0% 4%;
+    position: fixed;
+}
+
+.experienceLeftContainer span {
+    width: 65%;
+    color: #603620;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1vw;
+    padding: 10% 5%;
+}
+
+.experienceLeftContainer img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.experienceRightContainer {
+    width: 60%;
+    color: #333;
+    padding: 0 50px;
+    text-align: start;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 25%;
+    left: 35%;
+} */
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .experienceLeftContainer {
+        width: 40%;
+    }
+
+    .experienceRightContainer {
+        width: 55%;
+        left: 40%;
+    }
+
+    .experienceLeftContainer img {
+        object-fit: cover;
+    }
+
+    .contentSec {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .experienceMain {
+        flex-direction: column;
+    }
+
+    .experienceLeftContainer {
+        width: 100%;
+        position: relative;
+        height: 50vh;
+        padding: 0;
+        /* margin-bottom: 2rem; */
+    }
+
+    .experienceRightContainer {
+        width: 100%;
+        padding: 0 20px;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .experienceLeftContainer img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experienceLeftContainer img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .experienceRightContainer {
+        padding: 0 15px;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experienceLeftContainer {
+        padding: 2% 0% 0% 2%;
+    }
+
+    /* .experienceLeftContainer img {
+        object-fit: contain;
+    } */
+
+    .experienceRightContainer {
+        padding: 0 10px;
+        top: 10%;
+        left: 0;
+    }
+}

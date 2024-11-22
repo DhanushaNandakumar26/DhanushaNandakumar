@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/DhanushaNandakumar/static/css/main.3a68c91d.css",
-    "main.js": "/DhanushaNandakumar/static/js/main.2973f18b.js",
-    "static/media/lady-pic1.png": "/DhanushaNandakumar/static/media/lady-pic1.6514231d05bc89c188b6.png",
-    "static/media/Dhanusha-Nandakumar.pdf": "/DhanushaNandakumar/static/media/Dhanusha-Nandakumar.03a264195d1498fe86ac.pdf",
-    "static/media/dhanusha.jpg": "/DhanushaNandakumar/static/media/dhanusha.fb2158f66341cc6aacca.jpg",
-    "static/media/dhanusha2.jpg": "/DhanushaNandakumar/static/media/dhanusha2.f69fbdaabf544ca25f06.jpg",
-    "static/media/slick.svg": "/DhanushaNandakumar/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/DhanushaNandakumar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/DhanushaNandakumar/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/DhanushaNandakumar/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/DhanushaNandakumar/index.html",
-    "main.3a68c91d.css.map": "/DhanushaNandakumar/static/css/main.3a68c91d.css.map",
-    "main.2973f18b.js.map": "/DhanushaNandakumar/static/js/main.2973f18b.js.map"
+    "main.css": "/static/css/main.4d324253.css",
+    "main.js": "/static/js/main.62af5cdf.js",
+    "static/media/lady-pic1.png": "/static/media/lady-pic1.6514231d05bc89c188b6.png",
+    "static/media/Dhanusha-Nandakumar.pdf": "/static/media/Dhanusha-Nandakumar.03a264195d1498fe86ac.pdf",
+    "static/media/dhanusha.jpg": "/static/media/dhanusha.fb2158f66341cc6aacca.jpg",
+    "static/media/dhanusha2.jpg": "/static/media/dhanusha2.f69fbdaabf544ca25f06.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.4d324253.css.map": "/static/css/main.4d324253.css.map",
+    "main.62af5cdf.js.map": "/static/js/main.62af5cdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a68c91d.css",
-    "static/js/main.2973f18b.js"
+    "static/css/main.4d324253.css",
+    "static/js/main.62af5cdf.js"
   ]
 }

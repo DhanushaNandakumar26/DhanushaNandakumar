@@ -24,6 +24,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <!-- For Custom domain-->
+    <script>
+      if (location.pathname !== '/' && !location.pathname.includes('index.html')) {
+        location.replace('/index.html');
+      }
+    </script>
+    
     <title>React App</title>
   </head>
   <body>

@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="navbar-brand"></div>
             <ul className="navbar-menu">
-                <li className="navbar-item">
+                <li className="navbar-item"> 
                     <Link to="/" className="navbar-link">Home</Link>
                 </li>
                 <li className="navbar-item">
